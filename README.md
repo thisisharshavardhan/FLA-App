@@ -9,8 +9,8 @@ FLA-App is an Android application designed to extract and analyze ingredients fr
 Here are some screenshots of the application:
 
 <p align="center">
-  <img src="WhatsApp Image 2025-04-18 at 8.02.13 PM.jpeg" alt="FLA-App Screenshot 1" width="300"/>
   <img src="WhatsApp Image 2025-04-18 at 8.02.14 PM.jpeg" alt="FLA-App Screenshot 2" width="300"/>
+  <img src="WhatsApp Image 2025-04-18 at 8.02.13 PM.jpeg" alt="FLA-App Screenshot 1" width="300"/>
 </p>
 
 *(Please replace these with more descriptive alt text if needed, or if these images are not representative of the final app, update them accordingly.)*
