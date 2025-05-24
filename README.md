@@ -4,13 +4,15 @@
 
 FLA-App is an Android application designed to extract and analyze ingredients from food label images. It helps users understand the health impact of various food components by providing an assessment based on the scanned label.
 
+**This is the frontend mobile application. The backend service for this application can be found at [thisisharshavardhan/Label-scanner](https://github.com/thisisharshavardhan/Label-scanner).**
+
 ## Screenshots
 
 Here are some screenshots of the application:
 
 <p align="center">
-  <img src="WhatsApp Image 2025-04-18 at 8.02.14 PM.jpeg" alt="FLA-App Screenshot 2" width="300"/>
   <img src="WhatsApp Image 2025-04-18 at 8.02.13 PM.jpeg" alt="FLA-App Screenshot 1" width="300"/>
+  <img src="WhatsApp Image 2025-04-18 at 8.02.14 PM.jpeg" alt="FLA-App Screenshot 2" width="300"/>
 </p>
 
 *(Please replace these with more descriptive alt text if needed, or if these images are not representative of the final app, update them accordingly.)*
@@ -60,6 +62,7 @@ FLA-App/
 
 *   Android Studio (latest stable version recommended)
 *   Kotlin plugin for Android Studio
+*   Access to a running instance of the [Label-scanner backend service](https://github.com/thisisharshavardhan/Label-scanner). (You'll likely need to configure the app to point to your backend's URL).
 
 ### Building and Running
 
@@ -67,15 +70,18 @@ FLA-App/
     ```bash
     git clone https://github.com/thisisharshavardhan/FLA-App.git
     ```
-2.  **Open in Android Studio:**
+2.  **Set up the backend:**
+    *   Clone and run the [thisisharshavardhan/Label-scanner](https://github.com/thisisharshavardhan/Label-scanner) project as per its README instructions.
+    *   Ensure the Android app knows the URL of your running backend (this might involve changing a configuration file or a constant within the Android app's code).
+3.  **Open in Android Studio:**
     *   Launch Android Studio.
     *   Select "Open an existing Android Studio project".
     *   Navigate to the cloned `FLA-App` directory and select it.
-3.  **Sync Project with Gradle Files:**
-    *   Android Studio should automatically sync the project. If not, click on "Sync Project with Gradle Files" (often represented by an elephant icon with a refresh symbol).
-4.  **Run the application:**
+4.  **Sync Project with Gradle Files:**
+    *   Android Studio should automatically sync the project. If not, click on "Sync Project with Gradle Files".
+5.  **Run the application:**
     *   Select an emulator or connect a physical Android device.
-    *   Click the "Run 'app'" button (usually a green play icon).
+    *   Click the "Run 'app'" button.
 
 ## Contributing
 
@@ -96,5 +102,5 @@ This project does not currently have a license. Please consider adding one (e.g.
 
 ---
 
-*This README was auto-generated based on the repository structure and metadata.*
+*This README was auto-generated and then modified. Please review and update as needed.*
 *You might want to add more specific details about the app's functionality, setup instructions for any specific APIs or libraries used.*
